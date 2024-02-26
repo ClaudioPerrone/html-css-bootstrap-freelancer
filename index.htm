@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Link CSS-->
@@ -19,37 +21,68 @@
         </div>
     </header>
     <main>
-        <section class="ms-bg-green py-4 py-md-5 text-white text-center"> <!--Hero-->
+        <section class="hero ms-bg-green py-4 py-md-5 text-white text-center"> <!--Hero-->
             <div class="container px-5">
+                <img src="./img/avatar.svg" alt="">
                 <h1>START BOOTSTRAP</h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-1 text-white border border-white"></div>
+                    <div class="px-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-1 text-white border border-white"></div>
+                </div>
                 <p>GRAPICH ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
         </section>
-        <section> <!--Portfolio-->
+        <section class="portfolio"> <!--Portfolio-->
             <div class="container py-5">
                 <h2 class="text-center">PORTFOLIO</h2>
                 <div class="row gy-3">
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6 col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div> 
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/cabin.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/cake.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/circus.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/game.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/safe.png" alt="">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img src="./img/submarine.png" alt="">
+                    </div> 
                 </div>
             </div>
         </section>
-        <section class="ms-bg-green py-4 py-md-5 text-white"> <!--About-->
-            <div class="container px-5">
+        <section class="about ms-bg-green py-4 py-md-5 text-white"> <!--About-->
+            <div class="container small-container px-5">
                 <h1 class="text-center">ABOUT</h1>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-1 text-white border border-white"></div>
+                    <div class="px-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-1 text-white border border-white"></div>
+                </div>
                 <div class="row gy-3">
-                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
-                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, unde amet. Modi repudiandae, maiores reprehenderit sed fugit cum ullam rerum rem itaque repellendus alias. Explicabo impedit magni error sed accusantium!</div>
+                    <div class="col-12 col-md-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete sources files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
+                    <div class="col-12 col-md-6">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project, this template is the perfect starting point!</div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-lg btn-outline-light d-flex align-items-center"><i class="fa-solid fa-download"></i>Download</button>
                 </div>
             </div>
         </section>
-        <section> <!--Contact me-->
+        <section class="contact me"> <!--Contact me-->
             <div class="container">
                 <h2 class="text-center">CONTACT ME</h2>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="col-1 text-black border border-black"></div>
+                    <div class="px-4"><i class="fa-solid fa-star"></i></div>
+                    <div class="col-1 text-black border border-black"></div>
+                </div>
             </div>
         </section>
     </main>

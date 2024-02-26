@@ -20,6 +20,14 @@ button i
 {
     background-color: #1ABC9C;
 }
+.ms-color-green
+{
+    color: #1ABC9C;
+}
+.ms-bg-darkgrey2
+{
+    background-color: #3a546d;
+}
 /*-----------------
 HERO
 -----------------*/
@@ -35,11 +43,23 @@ HERO
     max-width: 100%;
     border-radius: 20px;
 }
-.portfolio img:hover
+/*-----------------
+    CIRCLE
+-----------------*/
+.circle
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 5px;
+}
+.circle i
 {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
-    background-color: rgba(91, 192, 172, 0.5);
-    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    object-fit: cover;
 }

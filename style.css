@@ -9,6 +9,10 @@ button i
 {
     padding-right: 5px;
 }
+.line
+{
+    width: 100px;
+}
 /*-----------------
     COLORS
 -----------------*/
@@ -27,13 +31,6 @@ button i
 .ms-bg-darkgrey2
 {
     background-color: #3a546d;
-}
-/*-----------------
-HERO
------------------*/
-.hero img
-{
-    width: 15%;
 }
 /*-----------------
     PORTFOLIO
@@ -62,4 +59,13 @@ HERO
     font-size: 18px;
     line-height: 50px;
     object-fit: cover;
+}
+/*-----------------
+    MS-CONTACT-FORM
+-----------------*/
+.ms-contact-form input, .ms-contact-form textarea
+{
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
 }
